@@ -1,20 +1,19 @@
 // Initialize questions and answers
 let questions = [
-  { question: "What is the capital of France?", correctAnswer: "Paris" },
-{ question: "What is the largest planet in our solar system?", answer: "Jupiter" },
+    { question: "What is the capital of France?", answer: "Paris" },
+    { question: "What is the largest planet in our solar system?", answer: "Jupiter" },
     { question: "Who wrote 'Romeo and Juliet'?", answer: "William Shakespeare" },
     { question: "តុលាមានត្រកូលអ្វី?", answer: "នូ" },
     { question: "ផាន់ណាជានណា?", answer: "ប្រុសស្អាត" },
     { question: "រ៉ាវីតស្រីឬប្រុស?", answer: "ខ្ទើយ" },
     { question: "ទាយមើលខ្ញុំរៀនអ្វីចប់១២?", answer: "អាយធី" },
-    { question: "មិត្តភក្តិឆ្លាតវៃមានសមាជិកម៉ានអ្នក?", ១១: "H2O" },
-    { question: "នណាគេពូកែរគណិត?", answer: "H2O" },
-    { question: "នណាគេពូកែគណិត?", "ផាន់ណា" },
+    { question: "មិត្តភក្តិឆ្លាតវៃមានសមាជិកម៉ានអ្នក?", answer: "១១" },
+    { question: "នណាគេពូកែរគណិត?", answer: "ផាន់ណា" },
     { question: "និមិត្តសញ្ញាទឹក?", answer: "H2O" },
     { question: "ស្រីហានស្រីឬប្រុស?", answer: "ស្រី" },
     { question: "សូយ៉ាទាបឬខ្ពស់?", answer: "ទាប" },
     { question: "នណាគេពូកែគីមី?", answer: "ផាន់ណា" },  
-  { question: "What is 5 + 7?", correctAnswer: "12" },
+    { question: "What is 5 + 7?", answer: "12" }
 ];
 
 let currentQuestionIndex = 0;
@@ -48,4 +47,3 @@ function checkAnswer(userAnswer, correctAnswer) {
 
 // Start the game
 askQuestion();
-  
