@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phanna's Question Game</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="javascript.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Phanna's Question Game</h1>
+    </header>
+    <div class="game-container">
+      <div id="gameArea">
+        <h2>Answer the Question!</h2>
+        <p id="questionDisplay">What is the question?</p>
+        <input
+          type="text"
+          id="answerInput"
+          placeholder="Type your answer here"
+        />
+        <button onclick="checkAnswer()">Submit Answer</button>
+        <p id="resultMessage"></p>
+      </div>
+      <div id="addQuestionArea">
+        <h2>Add a New Question (Admin only)</h2>
+        <input
+          type="text"
+          id="newQuestion"
+          placeholder="Enter a new question"
+        />
+        <input
+          type="text"
+          id="newCorrectAnswer"
+          placeholder="Enter the correct answer"
+        />
+        <button onclick="addQuestion()">Add Question</button>
+      </div>
+    </div>
+    <footer>
+      <p>© 2024 PhannaQuestion.com - All rights reserved</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
